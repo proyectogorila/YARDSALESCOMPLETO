@@ -1,0 +1,142 @@
+.contenedor-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 5.4rem;
+  min-height: 5.4rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(0, 2, 4, 0.05);
+          box-shadow: 0px 4px 0px 0px rgba(0, 2, 4, 0.05);
+}
+.contenedor-header__menu-izquierda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.contenedor-header__menu-izquierda .menu-izquierda__logo-yard-sale {
+  width: 20rem;
+  height: 5.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+.contenedor-header__menu-izquierda .menu-izquierda__logo-yard-sale .logo-yard-sale__img {
+  width: 14.4rem;
+  height: 3rem;
+}
+.contenedor-header__menu-izquierda .menu-izquierda__menu-all {
+  width: 4.7rem;
+  height: 5.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contenedor-header__menu-izquierda .menu-izquierda__menu-all .menu-all__input {
+  width: 4.7rem;
+  height: 3.1rem;
+  color: #acd9b2;
+  border: solid 0.1rem #acd9b2;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  cursor: pointer;
+}
+.contenedor-header__menu-izquierda .menu-izquierda__menu-all :hover {
+  color: #ffffff;
+  background-color: #acd9b2;
+}
+.contenedor-header__menu-izquierda .menu-izquierda__nav-bar {
+  width: 38rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contenedor-header__menu-izquierda .menu-izquierda__nav-bar .nav-bar__menu {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #797979;
+  line-height: 2rem;
+  cursor: pointer;
+}
+.contenedor-header__menu-izquierda .menu-izquierda__nav-bar :hover {
+  color: #acd9b2;
+}
+.contenedor-header__menu-derecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contenedor-header__menu-derecha .menu-derecha__sing-in {
+  width: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contenedor-header__menu-derecha .menu-derecha__sing-in .sing-in__sing-o-email {
+  font-size: 1.6rem;
+  color: #acd9b2;
+  font-weight: 700;
+  line-height: 1.75rem;
+  cursor: pointer;
+}
+.contenedor-header__menu-derecha .menu-derecha__sing-in :hover {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.contenedor-header__menu-derecha .menu-derecha__carrito {
+  width: 7rem;
+  height: 5.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contenedor-header__menu-derecha .menu-derecha__carrito .carrito__img {
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}

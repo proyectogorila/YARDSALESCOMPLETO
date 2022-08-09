@@ -1,0 +1,122 @@
+.contenedor-header {
+    display: flex;
+    flex-direction: row;
+    height: 5.4rem;
+    min-height: 5.4rem;
+    justify-content: space-between;
+    box-shadow: 0px 4px 0px 0px rgba(0, 2, 4, 0.05);
+
+    &__menu-izquierda {
+        display: flex;
+        flex-direction: row;
+
+        .menu-izquierda__logo-yard-sale {
+            width: 20rem;
+            height: 5.4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            .logo-yard-sale__img {
+                width: 14.4rem;
+                height: 3.0rem
+            }
+        }
+
+        .menu-izquierda__menu-all {
+            width: 4.7rem;
+            height: 5.4rem;
+            display: flex;
+            align-items: center;
+
+
+            .menu-all__input {
+                width: 4.7rem;
+                height: 3.1rem;
+                color: $Hospital-green;
+                border: solid 0.1rem $Hospital-green;
+                border-radius: 1rem;
+                font-size: $fs-16;
+                font-weight: 700;
+                line-height: 2rem;
+                cursor: pointer;
+            }
+
+            :hover {
+                color: $White;
+                background-color: $Hospital-green;
+            }
+
+        }
+
+        .menu-izquierda__nav-bar {
+            width: 38rem;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1.5rem;
+            align-items: center;
+
+
+            .nav-bar__menu {
+                font-size: $fs-16;
+                font-weight: 500;
+                color: $font-secundary-color;
+                line-height: 2rem;
+
+                cursor: pointer;
+
+            }
+
+            :hover {
+                color: $Hospital-green;
+            }
+
+        }
+
+    }
+
+    &__menu-derecha {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .menu-derecha__sing-in {
+            width: 8rem;
+            display: flex;
+            justify-content: center;
+
+
+            .sing-in__sing-o-email {
+                font-size: $fs-16;
+                color: $Hospital-green;
+                font-weight: 700;
+                line-height: 1.75rem;
+                cursor: pointer;
+            }
+
+            :hover {
+                font-weight: 700;
+                font-size: $fs-20;
+            }
+
+
+        }
+
+        .menu-derecha__carrito {
+            width: 7rem;
+            height: 5.4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .carrito__img {
+                width: 2.5rem;
+                height: 2.5rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

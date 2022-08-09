@@ -1,0 +1,67 @@
+// estilos generales
+
+$Very-light-pink: #c7c7c7;
+$Text-input-field: #f7f7f7;
+$Hospital-green: #acd9b2;
+$Background-Color-ys: #F2F2F2;
+$font-secundary-color: #797979;
+$White: #ffffff;
+$black: #000000;
+$sm: 1.4rem;
+$md: 1.6rem;
+$lg: 1.8rem;
+$xl: 2.4rem;
+$fs-14: 1.4rem;
+$fs-15: 1.5rem;
+$fs-16: 1.6rem;
+$fs-17: 1.7rem;
+$fs-18: 1.8rem;
+$fs-19: 1.9rem;
+$fs-20: 2.0rem;
+$fs-21: 2.1rem;
+$fs-22: 2.2rem;
+$fs-23: 2.3rem;
+$fs-24: 2.4rem;
+$fs-25: 2.5rem;
+$fs-26: 2.6rem;
+
+
+
+
+
+@mixin logo__yard {
+    width: 15rem;
+    justify-self: center;
+    display: none;
+}
+
+@mixin boton__verde {
+
+    background-color: $Hospital-green;
+    width: 100%;
+    height: 6rem;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    font-size: $lg;
+    color: $White;
+    font-weight: 700;
+}
+
+@mixin titulo {
+    font-size: $xl;
+    text-align: center;
+    font-weight: 700;
+}
+
+@mixin parrafo {
+    color: $Very-light-pink;
+    font-size: $md;
+    font-weight: 300;
+    text-align: center;
+}
+
+@mixin logo__email {
+    width: 9rem;
+    justify-self: center;
+
+}
