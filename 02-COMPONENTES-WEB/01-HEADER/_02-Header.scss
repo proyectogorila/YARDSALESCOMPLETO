@@ -148,10 +148,6 @@
                 cursor: pointer;
             }
 
-            :hover {
-                font-weight: 700;
-                font-size: $fs-20;
-            }
 
             @media (max-width:790px) {
                 display: none;
@@ -161,9 +157,11 @@
         }
 
         .menu-derecha__emailActive {
+
             width: auto;
             display: flex;
             justify-content: center;
+
 
 
 
@@ -175,10 +173,6 @@
                 cursor: pointer;
             }
 
-            :hover {
-                font-weight: 700;
-                font-size: $fs-20;
-            }
 
             @media (max-width:790px) {
                 display: none;

@@ -1,7 +1,7 @@
 .container-MyAccount {
     position: absolute;
     top: 5.5rem;
-    right: 10rem;
+    right: 7rem;
     width: 20rem;
     height: 27rem;
     display: flex;
@@ -34,6 +34,7 @@
 
     .MyAccount__sing-out {
         padding: 1rem 0 2.5rem 0;
+        cursor: pointer;
 
         .menuAccount__item {
             @include menuItem($Hospital-green);

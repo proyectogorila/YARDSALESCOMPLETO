@@ -178,10 +178,6 @@
   line-height: 1.75rem;
   cursor: pointer;
 }
-.contenedor-header__menu-derecha .menu-derecha__sing-in :hover {
-  font-weight: 700;
-  font-size: 2rem;
-}
 @media (max-width: 790px) {
   .contenedor-header__menu-derecha .menu-derecha__sing-in {
     display: none;
@@ -202,10 +198,6 @@
   font-weight: 700;
   line-height: 1.75rem;
   cursor: pointer;
-}
-.contenedor-header__menu-derecha .menu-derecha__emailActive :hover {
-  font-weight: 700;
-  font-size: 2rem;
 }
 @media (max-width: 790px) {
   .contenedor-header__menu-derecha .menu-derecha__emailActive {
@@ -234,7 +226,7 @@
 .container-MyAccount {
   position: absolute;
   top: 5.5rem;
-  right: 10rem;
+  right: 7rem;
   width: 20rem;
   height: 27rem;
   display: -webkit-box;
@@ -278,6 +270,7 @@
 }
 .container-MyAccount .MyAccount__sing-out {
   padding: 1rem 0 2.5rem 0;
+  cursor: pointer;
 }
 .container-MyAccount .MyAccount__sing-out .menuAccount__item {
   color: #acd9b2;
@@ -285,6 +278,10 @@
   font-size: 1.6rem;
   line-height: 2rem;
   cursor: pointer;
+}
+
+#inactive {
+  display: none;
 }
 
 .inactive {

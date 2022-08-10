@@ -2,6 +2,10 @@
 @import '../02-COMPONENTES-WEB/01-HEADER/02-Header';
 @import '../02-COMPONENTES-WEB/02-MENU-MYACOUNT/02-Menu-MyAccout';
 
+#inactive {
+    display: none;
+}
+
 .inactive {
     display: none;
 }
