@@ -1,0 +1,8 @@
+.container-MyAccount.inactive
+    .MyAccount__menu
+        each menuAccount in menuAccounts
+            +menu([menuAccount])
+    .MyAccount__line
+    .MyAccount__sing-out
+        each menuSingOut in menuSingOuts
+            +menu([menuSingOut])

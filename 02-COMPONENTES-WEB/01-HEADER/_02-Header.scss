@@ -4,11 +4,36 @@
     height: 5.4rem;
     min-height: 5.4rem;
     justify-content: space-between;
-    box-shadow: 0px 4px 0px 0px rgba(0, 2, 4, 0.05);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.046805);
 
     &__menu-izquierda {
         display: flex;
         flex-direction: row;
+
+        @media (max-width:790px) {
+            flex-grow: 1;
+
+        }
+
+        .menu-izquierda__menu-mobil {
+            display: none;
+
+            @media (max-width:790px) {
+                display: block;
+                width: 5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                .menu-mobil__img {
+                    width: 2.3rem;
+                    height: 1.8rem;
+                }
+
+            }
+        }
 
         .menu-izquierda__logo-yard-sale {
             width: 20rem;
@@ -17,11 +42,16 @@
             justify-content: center;
             align-items: center;
             cursor: pointer;
+            flex-grow: 1;
 
             .logo-yard-sale__img {
                 width: 14.4rem;
-                height: 3.0rem
+                height: 3.0rem;
+
+
+
             }
+
         }
 
         .menu-izquierda__menu-all {
@@ -40,18 +70,17 @@
                 font-size: $fs-16;
                 font-weight: 700;
                 line-height: 2rem;
-                cursor: pointer;
             }
 
-            :hover {
-                color: $White;
-                background-color: $Hospital-green;
-            }
 
+            @media (max-width:790px) {
+                display: none;
+
+            }
         }
 
         .menu-izquierda__nav-bar {
-            width: 38rem;
+            width: 35rem;
             height: 100%;
             display: flex;
             justify-content: space-between;
@@ -64,13 +93,16 @@
                 font-weight: 500;
                 color: $font-secundary-color;
                 line-height: 2rem;
-
                 cursor: pointer;
-
             }
 
             :hover {
                 color: $Hospital-green;
+            }
+
+            @media (max-width:790px) {
+                display: none;
+
             }
 
         }
@@ -81,6 +113,26 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+
+        .menu-derecha__check {
+            width: 4rem;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .check__checkbox {
+                width: 2rem;
+                height: 2rem;
+
+            }
+
+            @media (max-width:790px) {
+                display: none;
+
+            }
+
+        }
 
         .menu-derecha__sing-in {
             width: 8rem;
@@ -101,8 +153,53 @@
                 font-size: $fs-20;
             }
 
+            @media (max-width:790px) {
+                display: none;
+
+            }
 
         }
+
+        .menu-derecha__emailActive {
+            width: auto;
+            display: flex;
+            justify-content: center;
+
+
+
+            .emailActiv__email {
+                font-size: $fs-16;
+                color: $black;
+                font-weight: 700;
+                line-height: 1.75rem;
+                cursor: pointer;
+            }
+
+            :hover {
+                font-weight: 700;
+                font-size: $fs-20;
+            }
+
+            @media (max-width:790px) {
+                display: none;
+
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         .menu-derecha__carrito {
             width: 7rem;

@@ -25,43 +25,11 @@ $fs-24: 2.4rem;
 $fs-25: 2.5rem;
 $fs-26: 2.6rem;
 
+//mixins
 
-
-
-
-@mixin logo__yard {
-    width: 15rem;
-    justify-self: center;
-    display: none;
-}
-
-@mixin boton__verde {
-
-    background-color: $Hospital-green;
-    width: 100%;
-    height: 6rem;
-    cursor: pointer;
-    border-radius: 0.8rem;
-    font-size: $lg;
-    color: $White;
+@mixin menuItem($colorMenu) {
+    color: $colorMenu;
     font-weight: 700;
-}
-
-@mixin titulo {
-    font-size: $xl;
-    text-align: center;
-    font-weight: 700;
-}
-
-@mixin parrafo {
-    color: $Very-light-pink;
-    font-size: $md;
-    font-weight: 300;
-    text-align: center;
-}
-
-@mixin logo__email {
-    width: 9rem;
-    justify-self: center;
-
+    font-size: $fs-16;
+    line-height: 2rem;
 }
