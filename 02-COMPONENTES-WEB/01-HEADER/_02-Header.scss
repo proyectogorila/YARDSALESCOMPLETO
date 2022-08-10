@@ -61,6 +61,7 @@
             align-items: center;
 
 
+
             .menu-all__input {
                 width: 4.7rem;
                 height: 3.1rem;
@@ -70,6 +71,7 @@
                 font-size: $fs-16;
                 font-weight: 700;
                 line-height: 2rem;
+                cursor: pointer;
             }
 
 
@@ -181,19 +183,6 @@
 
 
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         .menu-derecha__carrito {
             width: 7rem;
